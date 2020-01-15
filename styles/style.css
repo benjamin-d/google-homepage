@@ -1,0 +1,60 @@
+.center{
+  position:absolute;
+  top:30%;
+  left:50%;
+}
+.center input[type=text]{
+  width:400px;
+  margin-top:20px;
+  border:ridge;
+  transform:translate(-15%,50%);
+}
+.btnsrch{
+  position:absolute;
+  left:-10px;
+  bottom:-70px;
+  width:150px;
+  height:30px;
+  border:none;
+  
+/*  width:150px;
+  height:30px;
+  border:none;
+  transform:translate(-420px,70px);*/
+}
+.btnlucky{
+  position:absolute;
+  left:150px;
+  bottom:-70px;
+  width:150px;
+  height:30px;
+  border:none;
+  /*
+  width:150px;
+  height:30px;
+  border:none;
+  transform:translate(-400px,70px);*/
+}
+.navleft a{
+  text-decoration:none;
+  color:#000;
+  font-style:Arial sans-serif;
+  font-size:15px;
+  margin:20px 0px 10px 25px;
+  float:left;
+}
+.navright .apps a{
+  background-image: url("images/apps.png");  
+  background-size: 528px 68px;
+}
+.navright a{
+  text-decoration:none;
+  font-style:Arial sans-serif;
+  color:#000;
+  font-size:15px;
+  margin:20px 0px 10px 25px;
+  float:right;
+}
+a:hover{
+  text-decoration:underline;
+}
