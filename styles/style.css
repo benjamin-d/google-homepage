@@ -16,11 +16,7 @@
   width:150px;
   height:30px;
   border:none;
-  
-/*  width:150px;
-  height:30px;
-  border:none;
-  transform:translate(-420px,70px);*/
+  background-color:transparent;
 }
 .btnlucky{
   position:absolute;
@@ -29,13 +25,15 @@
   width:150px;
   height:30px;
   border:none;
-  /*
-  width:150px;
-  height:30px;
-  border:none;
-  transform:translate(-400px,70px);*/
+  background-color:transparent;
 }
-.navleft a{
+.btnsrch:hover,.btnlucky:hover{
+ border:solid;  
+ border-width:thin;
+ border-color:rgb(0,120,120);
+ border-radius:4px;
+}
+.navtop a{
   text-decoration:none;
   color:#000;
   font-style:Arial sans-serif;
@@ -43,18 +41,44 @@
   margin:20px 0px 10px 25px;
   float:left;
 }
-.navright .apps a{
-  background-image: url("images/apps.png");  
-  background-size: 528px 68px;
+
+#apps{
+ margin:15px 20px 0px 20px;
 }
-.navright a{
-  text-decoration:none;
-  font-style:Arial sans-serif;
-  color:#000;
-  font-size:15px;
-  margin:20px 0px 10px 25px;
-  float:right;
+#signin{
+ width:80px;
+ height:35px;
+ margin-top:12px;
+ margin-right:10px;
+ font-weight:bold;
+ color:white;
+ background-color:rgb(26,115,232);
+ border:none;
+ border-radius:4px;
 }
+
+.navbtm{
+  position:absolute;
+  bottom:0.5em;
+
+}
+.navbtm li{
+  display:inline;
+}
+.navbtm a{
+ text-decoration:none;
+ color:#000;
+ font-style:Arial sans-serif;
+ font-size:15px;
+ margin:20px 0px 10px 25px;
+ float:left;
+}
+
 a:hover{
   text-decoration:underline;
 }
+li{
+  list-style-type:none;
+}
+
+
