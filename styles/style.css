@@ -60,9 +60,14 @@
 .navbtm{
   position:absolute;
   bottom:0.5em;
-
 }
-.navbtm li{
+.navbtmrt{
+ position:absolute;
+ right:1em;
+ bottom:10px;
+}
+
+.navbtm li, .navbtmrt li{
   display:inline;
 }
 .navbtm a{
@@ -71,9 +76,15 @@
  font-style:Arial sans-serif;
  font-size:15px;
  margin:20px 0px 10px 25px;
- float:left;
+ /*float:left;*/
 }
-
+.navbtmrt a{
+ text-decoration:none;
+ font-style:Arial sans-serif;
+ font-size:15px;
+ color:#000;
+ margin:20px 0px 10px 25px;
+}
 a:hover{
   text-decoration:underline;
 }
